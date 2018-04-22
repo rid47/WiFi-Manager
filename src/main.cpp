@@ -6,7 +6,7 @@ void setup() {
 
   Serial.begin(115200);
   WiFiManager wifiManager;
-  wifiManager.resetSettings();
+  //wifiManager.resetSettings();
   wifiManager.autoConnect("Mushroom Device", "admin1234");
   Serial.println("Connected.");
 }
